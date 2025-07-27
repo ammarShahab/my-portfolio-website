@@ -1,8 +1,9 @@
 import React from "react";
+import { Navbar } from "flowbite-react";
 
 const NavBar = () => {
-  return (
-    <nav className="bg-[#0a0d0d] border-gray-200 dark:bg-gray-900 font-poppins">
+  return {
+    /* <nav className="bg-[#0a0d0d] border-gray-200 dark:bg-gray-900 font-poppins">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <a
           href="https://flowbite.com/"
@@ -13,9 +14,6 @@ const NavBar = () => {
             className="h-8"
             alt="Flowbite Logo"
           />
-          {/* <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
-            Flowbite
-          </span> */}
         </a>
         <button
           data-collapse-toggle="navbar-default"
@@ -87,19 +85,12 @@ const NavBar = () => {
               >
                 Contact Me
               </button>
-
-              {/* <a
-                href="#"
-                className="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
-              >
-                Contact
-              </a> */}
             </li>
           </ul>
         </div>
       </div>
-    </nav>
-  );
+    </nav> */
+  };
 };
 
 export default NavBar;
