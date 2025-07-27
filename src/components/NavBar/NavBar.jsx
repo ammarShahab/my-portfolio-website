@@ -1,9 +1,43 @@
 import React from "react";
-import { Navbar } from "flowbite-react";
+import {
+  Button,
+  Navbar,
+  NavbarBrand,
+  NavbarCollapse,
+  NavbarLink,
+  NavbarToggle,
+} from "flowbite-react";
 
 const NavBar = () => {
-  return {
-    /* <nav className="bg-[#0a0d0d] border-gray-200 dark:bg-gray-900 font-poppins">
+  return (
+    <Navbar fluid rounded>
+      <NavbarBrand href="https://flowbite-react.com">
+        <img
+          src="/favicon.svg"
+          className="mr-3 h-6 sm:h-9"
+          alt="Flowbite React Logo"
+        />
+        <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white">
+          Flowbite React
+        </span>
+      </NavbarBrand>
+      <div className="flex md:order-2">
+        <Button>Get started</Button>
+        <NavbarToggle />
+      </div>
+      <NavbarCollapse>
+        <NavbarLink href="#" active>
+          Home
+        </NavbarLink>
+        <NavbarLink href="#">About</NavbarLink>
+        <NavbarLink href="#">Services</NavbarLink>
+        <NavbarLink href="#">Pricing</NavbarLink>
+        <NavbarLink href="#">Contact</NavbarLink>
+      </NavbarCollapse>
+    </Navbar>
+  );
+
+  /* <nav className="bg-[#0a0d0d] border-gray-200 dark:bg-gray-900 font-poppins">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <a
           href="https://flowbite.com/"
@@ -90,7 +124,5 @@ const NavBar = () => {
         </div>
       </div>
     </nav> */
-  };
 };
-
 export default NavBar;
