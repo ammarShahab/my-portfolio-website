@@ -12,22 +12,28 @@ const Experience = () => {
       }}
     >
       <div className="bg-gradient-to-b  to-black/90 py-24">
-        <div
-          data-aos="fade-left"
-          className="max-w-6xl mx-auto px-4 text-center"
-        >
+        <div className="max-w-6xl mx-auto px-4 text-center">
           {/* Section Title */}
-          <h2 className="text-white text-4xl font-bold uppercase mb-4">
+          <h2
+            data-aos="fade-left"
+            className="text-white text-4xl font-bold uppercase mb-4"
+          >
             My Experience
           </h2>
-          <p className="text-gray-300 text-lg md:text-xl mb-16">
+          <p
+            data-aos="fade-left"
+            className="text-gray-300 text-lg md:text-xl mb-16"
+          >
             Showcasing my journey and milestones in the world of development
           </p>
 
           {/* Experience Cards */}
           <div className="flex flex-col md:flex-row justify-center gap-12 items-center">
             {/* Card 1: Professional Experience */}
-            <div className="bg-white/10 backdrop-blur-md border border-white/20 rounded-2xl p-8 w-[300px] hover:shadow-xl transition duration-500 hover:scale-105 flex-1">
+            <div
+              data-aos="flip-left"
+              className="bg-white/10 backdrop-blur-md border border-white/20 rounded-2xl p-8 w-[300px] hover:shadow-xl transition duration-500 hover:scale-105 flex-1"
+            >
               <div className="flex justify-center mb-4 animate-bounce">
                 <FaBriefcase className="text-5xl text-amber-400" />
               </div>
@@ -40,7 +46,10 @@ const Experience = () => {
             </div>
 
             {/* Card 2: Projects Done */}
-            <div className="bg-white/10 backdrop-blur-md border border-white/20 rounded-2xl p-8 w-[300px] hover:shadow-xl transition duration-500 hover:scale-105 flex-1">
+            <div
+              data-aos="flip-right"
+              className="bg-white/10 backdrop-blur-md border border-white/20 rounded-2xl p-8 w-[300px] hover:shadow-xl transition duration-500 hover:scale-105 flex-1"
+            >
               <div className="flex justify-center mb-4 animate-bounce">
                 <FaCode className="text-5xl text-amber-400" />
               </div>

@@ -6,13 +6,13 @@ const About = () => {
   return (
     <section
       className="w-full bg-cover bg-center bg-no-repeat"
-      data-aos="fade-up"
-      data-aos-duration="1000"
+      // data-aos="fade-up"
+      // data-aos-duration="1000"
       style={{ backgroundImage: `url(${backgroundImg})` }}
     >
       <div className="max-w-6xl mx-auto px-6 py-16 flex flex-col md:flex-row items-center md:items-start gap-10 ">
         {/* Left: Portfolio Image */}
-        <div className="w-full md:w-1/2">
+        <div data-aos="fade-right" className="w-full md:w-1/2">
           <img
             src={portfolioImg}
             alt="Portfolio"
@@ -21,7 +21,7 @@ const About = () => {
         </div>
 
         {/* Right: About Content */}
-        <div className="w-full md:w-1/2 text-black">
+        <div data-aos="fade-left" className="w-full md:w-1/2 text-black">
           <h2 className="text-4xl md:text-4xl font-bold mb-4 uppercase">
             About Me
           </h2>
