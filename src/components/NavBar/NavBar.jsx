@@ -30,7 +30,7 @@ const NavBar = () => {
           </NavbarLink>
           <NavbarLink
             className="relative inline-block group py-2 px-3 md:py-6 text-white hover:!text-white border-b-0 hover:!bg-[#0a0d0d]"
-            href="#"
+            href="#experience"
           >
             Experience
             <span className="absolute left-0 bottom-0 h-1 w-full scale-x-0 origin-left bg-amber-300 transition-transform duration-300 group-hover:scale-x-100"></span>

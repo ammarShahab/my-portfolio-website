@@ -78,7 +78,7 @@ const Skills = () => {
             Red to Yellow
           </Button> */}
         </div>
-        <div className="flex flex-col items-center gap-4">
+        <div className="flex flex-col items-center gap-4 mb-10">
           <Button className="bg-gradient-to-r from-green-400 via-green-500 to-green-600 text-white hover:bg-gradient-to-br focus:ring-green-300 dark:focus:ring-green-800 hover:scale-105 transition-all duration-300 ease-in-out hover:shadow-xl">
             Tailwind
           </Button>
