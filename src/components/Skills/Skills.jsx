@@ -89,10 +89,10 @@ const Skills = () => {
           </Button> */}
         </div>
         <div className="flex flex-col items-center gap-4 mb-10">
-          <Button className="bg-gradient-to-r from-green-400 via-green-500 to-green-600 text-white hover:bg-gradient-to-br focus:ring-green-300 dark:focus:ring-green-800 hover:scale-105 transition-all duration-300 ease-in-out hover:shadow-xl">
+          <Button className="bg-gradient-to-r from-green-400 via-green-500 to-green-600 text-white hover:bg-gradient-to-br focus:ring-green-300 dark:focus:ring-green-800 hover:scale-105 transition-all duration-300 ease-in-out hover:shadow-xl mt-4 sm:mt-0">
             Tailwind
           </Button>
-          <Button className="bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 text-white hover:bg-gradient-to-br focus:ring-blue-300 dark:focus:ring-blue-800 hover:scale-105 transition-all duration-300 ease-in-out hover:shadow-xl mt-4 sm:mt-0">
+          <Button className="bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 text-white hover:bg-gradient-to-br focus:ring-blue-300 dark:focus:ring-blue-800 hover:scale-105 transition-all duration-300 ease-in-out hover:shadow-xl">
             MongoDB
           </Button>
 

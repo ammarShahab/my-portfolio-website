@@ -13,7 +13,7 @@ const Experience = () => {
     >
       <div className="bg-gradient-to-b  to-black/90 py-24">
         <div
-          data-aos="fade-right"
+          data-aos="fade-left"
           className="max-w-6xl mx-auto px-4 text-center"
         >
           {/* Section Title */}
