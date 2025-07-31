@@ -9,7 +9,12 @@ const Skills = () => {
       className="w-full bg-cover bg-center bg-no-repeat"
       style={{ backgroundImage: `url(${skillBg})` }}
     >
-      <div className="max-w-6xl mx-auto px-6 py-16 gap-10">
+      <div
+        data-aos="fade-right"
+        data-aos-offset="300"
+        data-aos-easing="ease-in-sine"
+        className="max-w-6xl mx-auto px-6 py-16 gap-10"
+      >
         <h3 className="relative text-4xl  font-bold mb-12 uppercase text-center">
           Skills
           {/* Underline Layer 1 */}
@@ -26,7 +31,12 @@ const Skills = () => {
           experiences
         </p>
       </div>
-      <div className="grid grid-cols-1 sm:grid-cols-3 justify-around  max-w-6xl mx-auto ">
+      <div
+        data-aos="flip-left"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="2000"
+        className="grid grid-cols-1 sm:grid-cols-3 justify-around  max-w-6xl mx-auto "
+      >
         <div className="flex flex-col items-center gap-4">
           <Button className="bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 text-white hover:bg-gradient-to-br focus:ring-blue-300 dark:focus:ring-blue-800 hover:scale-105 transition-all duration-300 ease-in-out hover:shadow-xl ">
             HTML

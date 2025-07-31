@@ -26,7 +26,7 @@ const Banner = () => {
 
       {/* Text Content */}
       <div className="relative z-10 max-w-6xl mx-auto h-full flex items-center px-4 font-poppins">
-        <div className="text-white space-y-8">
+        <div data-aos="fade-right" className="text-white space-y-8">
           <h1 className="text-6xl font-bold ">I'm Ammar Shahab</h1>
           <p className="text-3xl max-w-xl">
             And I'm a <span className="text-[#F7BE38]">{text} </span>

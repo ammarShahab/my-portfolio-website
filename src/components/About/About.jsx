@@ -6,6 +6,8 @@ const About = () => {
   return (
     <section
       className="w-full bg-cover bg-center bg-no-repeat"
+      data-aos="fade-up"
+      data-aos-duration="2000"
       style={{ backgroundImage: `url(${backgroundImg})` }}
     >
       <div className="max-w-6xl mx-auto px-6 py-16 flex flex-col md:flex-row items-center md:items-start gap-10 ">
