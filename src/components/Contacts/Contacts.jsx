@@ -4,7 +4,11 @@ import { FaPhoneAlt, FaEnvelope, FaMapMarkerAlt } from "react-icons/fa";
 const Contacts = () => {
   return (
     <section className="w-full bg-[radial-gradient(ellipse_at_top_left,_#f9f9f9,_#bcbab8,_#9d8f8f)]">
-      <div data-aos="fade-down" className="max-w-6xl mx-auto py-16 px-6">
+      <div
+        data-aos="fade-down"
+        data-aos-duration="2000"
+        className="max-w-6xl mx-auto py-16 px-6"
+      >
         {/* Section Header */}
         <div className="mb-16">
           <h2 className="relative text-gray-700 text-4xl font-bold uppercase mb-12 text-center">
