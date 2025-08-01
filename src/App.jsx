@@ -1,5 +1,6 @@
 import About from "./components/About/About";
 import Banner from "./components/Banner/Banner";
+import Contacts from "./components/Contacts/Contacts";
 import Experience from "./components/Experience/Experience";
 import NavBar from "./components/NavBar/NavBar";
 import Projects from "./components/Projects/Projects";
@@ -14,6 +15,7 @@ function App() {
       <Skills></Skills>
       <Experience></Experience>
       <Projects></Projects>
+      <Contacts></Contacts>
     </>
   );
 }

@@ -15,7 +15,7 @@ const Experience = () => {
         <div className="max-w-6xl mx-auto px-4 text-center">
           {/* Section Title */}
           <h2
-            data-aos="fade-left"
+            data-aos="fade-right"
             className="text-white text-4xl font-bold uppercase mb-4"
           >
             My Experience

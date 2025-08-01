@@ -32,7 +32,7 @@ const Projects = () => {
       className="w-full bg-cover bg-center bg-no-repeat"
       style={{ backgroundImage: `url(${project_1})` }}
     >
-      <div data-aos="zoom-in" data-aos-duration="1000" className=" py-16 px-6">
+      <div data-aos="zoom-in" data-aos-duration="1000" className="py-16 px-6">
         <div className="max-w-6xl mx-auto">
           {/* Title */}
           <h3 className="relative text-4xl font-bold mb-12 uppercase text-center text-gray-700">

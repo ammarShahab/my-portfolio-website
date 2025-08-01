@@ -22,10 +22,10 @@ const About = () => {
 
         {/* Right: About Content */}
         <div data-aos="fade-left" className="w-full md:w-1/2 text-black">
-          <h2 className="text-4xl md:text-4xl font-bold mb-4 uppercase">
+          <h2 className="text-4xl md:text-4xl font-bold mb-4 uppercase text-gray-700">
             About Me
           </h2>
-          <p className="text-base leading-relaxed mb-6">
+          <p className="text-base leading-relaxed text-gray-600 mb-6">
             Hello! I'm a passionate web developer with a love for turning ideas
             into interactive digital experiences. Over the years, I’ve
             cultivated skills in front-end and back-end development, combining

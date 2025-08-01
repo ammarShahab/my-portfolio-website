@@ -15,7 +15,7 @@ const Skills = () => {
         data-aos-easing="ease-in-sine"
         className="max-w-6xl mx-auto px-6 py-16 gap-10"
       >
-        <h3 className="relative text-4xl  font-bold mb-12 uppercase text-center">
+        <h3 className="relative text-4xl font-bold mb-12 uppercase text-center text-gray-700">
           Skills
           {/* Underline Layer 1 */}
           <span className="absolute left-1/2 -translate-x-1/2 -bottom-4 h-[4px] w-24 bg-amber-300"></span>
@@ -24,7 +24,7 @@ const Skills = () => {
           {/* Underline Layer 3 */}
           <span className="absolute left-1/2 -translate-x-1/2 -bottom-8 h-[4px] w-16 bg-amber-500"></span>
         </h3>
-        <p className="text-center">
+        <p className="text-center text-gray-800">
           Behind every polished project lies a collection of <br /> powerful
           tools and libraries — this is the toolkit that helps me translate
           imagination into functional, scalable, and user-focused web
