@@ -22,7 +22,7 @@ const Contacts = () => {
         </div>
 
         {/* Contact Content */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-10 ">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
           {/* Left Side - Contact Info */}
           <div className="space-y-8">
             <div className="flex items-start space-x-4">
@@ -57,6 +57,9 @@ const Contacts = () => {
           {/* Right Side - Contact Form */}
           <form className="space-y-6">
             <div>
+              <h3 className="text-2xl font-bold text-gray-700 mb-5">
+                Contact Me
+              </h3>
               <label className="block text-sm font-medium text-gray-700 mb-1">
                 Name
               </label>
