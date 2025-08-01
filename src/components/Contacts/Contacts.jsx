@@ -6,7 +6,7 @@ const Contacts = () => {
     <section className="w-full bg-[radial-gradient(ellipse_at_top_left,_#f9f9f9,_#bcbab8,_#9d8f8f)]">
       <div
         data-aos="fade-down"
-        data-aos-duration="2000"
+        data-aos-duration="3000"
         className="max-w-6xl mx-auto py-16 px-6"
       >
         {/* Section Header */}
