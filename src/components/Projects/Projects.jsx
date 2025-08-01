@@ -2,20 +2,26 @@ import React from "react";
 import project_1 from "../../assets/images/project_1.jpg";
 import project_2 from "../../assets/images/project_2.jpg";
 import project_3 from "../../assets/images/project_3.jpg";
-import projectImg1 from "../../assets/images/projectImg1.png";
+import projectImg1 from "../../assets/images/projectImg_1_trus_life.png";
+import projectImg2 from "../../assets/images/projectImg_2_trip_nest.png";
+import projectImg3 from "../../assets/images/projectImg_3_dish_diary.png";
+import { motion } from "framer-motion";
 
 const projectData = [
   {
-    title: "Trust Life -life insurance management platform",
+    title: "Trust Life - life Insurance Management Platform",
     image: projectImg1,
+    links: "https://b11-a12-trust-life-client.web.app/",
   },
   {
-    title: "Portfolio Showcase",
-    // image: project_2,
+    title: "Trip Nest - Travel Package Booking Platform",
+    image: projectImg2,
+    links: "https://a11-tripnest-client.web.app/",
   },
   {
-    title: "Task Management Tool",
-    // image: project_3,
+    title: "Dish Diary - Recipe Book App ",
+    image: projectImg3,
+    links: "https://b11a10-client-side-ashahab007.web.app/",
   },
 ];
 
@@ -45,21 +51,35 @@ const Projects = () => {
           </p>
 
           {/* Project Cards */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 h-full sm:grid-cols-2 md:grid-cols-3 gap-8">
             {projectData.map((project, index) => (
-              <div
+              <a
+                href={project.links}
+                target="_blank"
+                rel="noopener noreferrer"
                 key={index}
-                className="backdrop-blur-md bg-white/10 border border-white/30 rounded-xl overflow-hidden shadow-lg hover:scale-105 transition-transform duration-300"
               >
-                <img
-                  src={project.image}
-                  alt={project.title}
-                  className="w-full h-48 object-contain rounded-xl p-2"
-                />
-                <div className="p-4 text-gray-700">
-                  <h4 className="text-xl font-semibold">{project.title}</h4>
-                </div>
-              </div>
+                <motion.div
+                  className="backdrop-blur-md min-h-full bg-white/10 border border-white/30 rounded-xl overflow-hidden shadow-lg transition-transform duration-300"
+                  initial={{ rotateX: 0, rotateZ: 0, translateY: 0 }}
+                  whileHover={{
+                    rotateX: -5, // Top + bottom tilt (forward)
+                    rotateZ: -3, // Twist to the left
+                    translateY: -5, // Lift the left edge
+                    transition: { duration: 0.1, ease: "easeInOut" },
+                  }}
+                  style={{ transformOrigin: "left center" }}
+                >
+                  <img
+                    src={project?.image}
+                    alt={project?.title}
+                    className="w-full h-48 object-cover rounded-xl p-2"
+                  />
+                  <div className="p-4 text-gray-700 text-center">
+                    <h4 className="text-xl font-semibold">{project?.title}</h4>
+                  </div>
+                </motion.div>
+              </a>
             ))}
           </div>
         </div>
