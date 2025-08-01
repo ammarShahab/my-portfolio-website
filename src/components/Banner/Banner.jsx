@@ -38,12 +38,14 @@ const Banner = () => {
             <br />
             Click below to learn more about me.
           </p>
-          <button
+          <a
+            target="_blank"
+            href="https://www.linkedin.com/in/md-ammar-shahab-88ab4a235/"
             type="button"
             className="text-white bg-[#F7BE38] hover:bg-gray-800 transition-colors duration-300 focus:ring-4 focus:outline-none focus:ring-[#F7BE38]/20 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-[#F7BE38]/50 me-2 mb-2 "
           >
             Learn More
-          </button>
+          </a>
         </div>
       </div>
     </div>
