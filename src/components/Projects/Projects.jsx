@@ -32,7 +32,7 @@ const Projects = () => {
       className="w-full bg-cover bg-center bg-no-repeat"
       style={{ backgroundImage: `url(${project_1})` }}
     >
-      <div className=" py-16 px-6">
+      <div data-aos="zoom-in" data-aos-duration="1000" className=" py-16 px-6">
         <div className="max-w-6xl mx-auto">
           {/* Title */}
           <h3 className="relative text-4xl font-bold mb-12 uppercase text-center text-gray-700">
@@ -60,7 +60,7 @@ const Projects = () => {
                 key={index}
               >
                 <motion.div
-                  className="backdrop-blur-md min-h-full bg-white/10 border border-white/30 rounded-xl overflow-hidden shadow-lg transition-transform duration-300"
+                  className="backdrop-blur-md min-h-full bg-white/10 border border-white/30 rounded-xl overflow-hidden shadow-lg group-hover:shadow-[rgba(255,255,255,0.2)_-20px_0px_30px_0px] transition-shadow duration-300"
                   initial={{ rotateX: 0, rotateZ: 0, translateY: 0 }}
                   whileHover={{
                     rotateX: -5, // Top + bottom tilt (forward)
