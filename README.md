@@ -4,10 +4,7 @@ Welcome to my personal portfolio website! This site showcases my work, skills, a
 
 ## 🔗 Live Site
 
-[Visit Portfolio](https://ammar-shahahb-porfolio.vercel.app/)  
-_(Replace with your actual deployed site URL)_
-
----
+[Visit Portfolio](https://ammar-shahahb-porfolio.vercel.app/)
 
 ## 🛠 Tech Stack
 
@@ -32,5 +29,3 @@ This project is built using modern web development technologies and tools:
 - **Vite Plugin React** – React-specific optimizations
 
 ---
-
-## 📁 Folder Structure
