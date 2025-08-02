@@ -5,7 +5,7 @@ import backgroundImg from "../../assets/images/about_bg.jpg"; // Background imag
 const About = () => {
   return (
     <section
-      className="w-full bg-cover bg-center bg-no-repeat"
+      className="w-full bg-cover bg-center bg-no-repeat font-poppins"
       // data-aos="fade-up"
       // data-aos-duration="1000"
       style={{ backgroundImage: `url(${backgroundImg})` }}
@@ -57,7 +57,7 @@ const About = () => {
             rel="noopener noreferrer"
           >
             <button className="text-white bg-[#F7BE38] hover:bg-gray-800 transition-colors duration-300 focus:ring-4 focus:outline-none focus:ring-[#F7BE38]/20 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-[#F7BE38]/50 me-2 mb-2 ">
-              View Resume
+              Download Resume
             </button>
           </a>
         </div>

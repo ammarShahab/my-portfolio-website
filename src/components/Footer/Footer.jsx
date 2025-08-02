@@ -1,9 +1,7 @@
 import { FaFacebookF, FaInstagram, FaLinkedinIn } from "react-icons/fa";
-import { FaXTwitter } from "react-icons/fa6";
-// import logo from "../../assets/images/logo.png";
-import { Link } from "react-router";
 import { HR, HRTrimmed } from "flowbite-react";
 import logo from "../../assets/images/ammar_shahab_logo.png";
+import { IoLogoGithub } from "react-icons/io";
 
 const Footer = () => {
   return (
@@ -12,7 +10,7 @@ const Footer = () => {
         /* className={`${
           theme ? "dark" : ""
         }  dark:bg-zinc-600 bg-gradient-to-l from-[#114b5f] via-[#1a936f] to-[#88d498] max-h-screen`} */
-        className="dark:bg-zinc-600 bg-[#0a0d0d] max-h-screen"
+        className="dark:bg-zinc-600 bg-[#0a0d0d] max-h-screen font-poppins"
       >
         <div
           /* className={`max-w-7xl flex flex-col justify-between px-4 py-2 sm:px-6 lg:px-8 mx-auto space-y-8 lg:flex-row lg:space-y-0 text-gray-800 ${
@@ -30,7 +28,7 @@ const Footer = () => {
           </div>
           <div className="grid grid-cols-2 text-sm gap-x-3 gap-y-8 lg:w-2/3 sm:grid-cols-3">
             <div className="space-y-3">
-              <h3 className="tracking-wide uppercase text-gray-300 dark:text-white">
+              <h3 className="tracking-wide uppercase text-gray-300 font-bold dark:text-white">
                 Contact
               </h3>
               <ul className="space-y-1">
@@ -54,7 +52,7 @@ const Footer = () => {
             </div>
 
             <div className="space-y-3">
-              <h3 className="uppercase text-gray-300 dark:text-white">
+              <h3 className="uppercase text-gray-300 dark:text-white font-bold">
                 Address
               </h3>
               <ul className="space-y-1">
@@ -69,7 +67,7 @@ const Footer = () => {
               </ul>
             </div>
             <div className="space-y-3">
-              <div className="uppercase text-gray-300 dark:text-white sm:text-right">
+              <div className="uppercase text-gray-300 font-bold dark:text-white sm:text-right">
                 Social media
               </div>
               <div className="flex sm:justify-end space-x-3">
@@ -91,12 +89,12 @@ const Footer = () => {
                     <FaXTwitter></FaXTwitter>
                   </a> */}
                   <a
-                    href="https://instagram.com"
+                    href="https://github.com/ammarShahab"
                     target="_blank"
                     aria-label="Instagram"
-                    className="text-gray-300 text-xl hover:text-[#fe8d02] transition-colors dark:text-white"
+                    className="text-gray-300 text-2xl hover:text-[#fe8d02] transition-colors dark:text-white"
                   >
-                    <FaInstagram></FaInstagram>
+                    <IoLogoGithub />
                   </a>
                   <a
                     href="https://www.linkedin.com/in/md-ammar-shahab-88ab4a235/"

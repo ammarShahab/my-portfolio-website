@@ -6,7 +6,7 @@ const Experience = () => {
   return (
     <section
       id="experience"
-      className="bg-fixed bg-center bg-no-repeat bg-cover"
+      className="bg-fixed bg-center bg-no-repeat bg-cover font-poppins"
       style={{
         backgroundImage: `url(${bgExperience})`,
       }}

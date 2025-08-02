@@ -29,7 +29,7 @@ const Projects = () => {
   return (
     <section
       id="projects"
-      className="w-full bg-cover bg-center bg-no-repeat"
+      className="w-full bg-cover bg-center bg-no-repeat font-poppins"
       style={{ backgroundImage: `url(${project_1})` }}
     >
       <div data-aos="zoom-in" data-aos-duration="2000" className="py-16 px-6">

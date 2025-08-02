@@ -6,7 +6,7 @@ const Skills = () => {
   return (
     <section
       id="skills"
-      className="w-full bg-cover bg-center bg-no-repeat"
+      className="w-full bg-cover bg-center bg-no-repeat font-poppins"
       style={{ backgroundImage: `url(${skillBg})` }}
     >
       <div
@@ -24,11 +24,10 @@ const Skills = () => {
           {/* Underline Layer 3 */}
           <span className="absolute left-1/2 -translate-x-1/2 -bottom-8 h-[4px] w-16 bg-amber-500"></span>
         </h3>
-        <p className="text-center text-gray-800">
-          Behind every polished project lies a collection of <br /> powerful
-          tools and libraries — this is the toolkit that helps me translate
-          imagination into functional, scalable, and user-focused web
-          experiences
+        <p className="text-center text-gray-700">
+          Behind every polished project lies a collection of powerful tools and
+          libraries — this is the toolkit that helps me translate imagination
+          into functional, scalable, and user-focused web experiences
         </p>
       </div>
       <div

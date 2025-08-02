@@ -5,7 +5,7 @@ const Contacts = () => {
   return (
     <section
       id="contact"
-      className="w-full bg-[radial-gradient(ellipse_at_top_left,_#f9f9f9,_#bcbab8,_#9d8f8f)]"
+      className="w-full bg-[radial-gradient(ellipse_at_top_left,_#f9f9f9,_#bcbab8,_#9d8f8f)] font-poppins"
     >
       <div
         data-aos="fade-down"
@@ -20,7 +20,7 @@ const Contacts = () => {
             <span className="absolute left-1/2 -translate-x-1/2 -bottom-6 h-[4px] w-46 bg-amber-400"></span>
             <span className="absolute left-1/2 -translate-x-1/2 -bottom-8 h-[4px] w-42 bg-amber-500"></span>
           </h2>
-          <p className="text-center text-gray-800 max-w-3xl mx-auto">
+          <p className="text-center text-gray-600 max-w-3xl mx-auto">
             "Have a web project in mind? Let’s collaborate to craft a tailored,
             high-impact digital solution. I’m excited to bring your ideas to
             life through clean code, creative design, and reliable execution.
