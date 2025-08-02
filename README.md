@@ -1,12 +1,36 @@
-# React + Vite
+# 💼 My Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my personal portfolio website! This site showcases my work, skills, and experience as a web developer, and serves as a platform for potential clients and collaborators to get in touch.
 
-Currently, two official plugins are available:
+## 🔗 Live Site
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+[Visit Portfolio](https://ammar-shahahb-porfolio.vercel.app/)  
+_(Replace with your actual deployed site URL)_
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠 Tech Stack
+
+This project is built using modern web development technologies and tools:
+
+### Frontend
+
+- **React 19** – Fast, flexible, and component-based UI
+- **Vite** – Lightning-fast build tool and dev server
+- **Tailwind CSS 4** – Utility-first CSS framework
+- **Flowbite React** – Prebuilt UI components with Tailwind integration
+- **Framer Motion** – Smooth animations and transitions
+- **AOS (Animate On Scroll)** – Scroll-based animations
+- **React Icons** – Beautiful icons for modern UI
+- **React Simple Typewriter** – Typing animations for headings/text
+- **React Router v7** – Client-side routing
+
+### Tooling
+
+- **ESLint** – Code linting and quality checks
+- **TypeScript Support** _(via types packages)_
+- **Vite Plugin React** – React-specific optimizations
+
+---
+
+## 📁 Folder Structure
