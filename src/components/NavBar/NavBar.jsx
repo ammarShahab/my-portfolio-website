@@ -10,9 +10,9 @@ import {
 
 const NavBar = () => {
   return (
-    <nav className="bg-[#0a0d0d] border-gray-200 dark:bg-gray-900 font-poppins">
+    <nav className="bg-[#050505] border-gray-200 dark:bg-gray-900 font-poppins">
       <Navbar
-        className="max-w-6xl bg-[#0a0d0d] mx-auto px-2 dark:bg-gray-900"
+        className="max-w-6xl bg-[#050505] mx-auto px-2 dark:bg-gray-900"
         fluid
         rounded
       >
