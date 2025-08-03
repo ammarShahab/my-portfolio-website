@@ -26,28 +26,31 @@ const About = () => {
             About Me
           </h2>
           <p className="text-base leading-relaxed text-gray-600 mb-6">
-            Hello! I'm a passionate web developer with a love for turning ideas
-            into interactive digital experiences. Over the years, I’ve
-            cultivated skills in front-end and back-end development, combining
-            design sensibility with clean code to build user-friendly web
-            applications. I enjoy exploring new technologies and continuously
-            improving my craft.
+            Hi! I’m a junior MERN Stack developer with a strong foundation in
+            full-stack web development. I recently completed a 6-month immersive
+            bootcamp where I mastered technologies like HTML, CSS, Tailwind CSS,
+            JavaScript, React, Node.js, Express.js, MongoDB, Firebase, and
+            Vercel.
             <br />
             <br />
-            From crafting responsive layouts with Tailwind CSS to building
-            scalable APIs using Node.js and Express, I strive to deliver
-            performance-optimized and accessible websites. Whether I'm working
-            solo or collaborating with a team, I approach each project with
-            curiosity, attention to detail, and a drive to exceed expectations.
+            During the bootcamp, I built and deployed 3 full-stack projects that
+            reflect my ability to design responsive UIs, build efficient APIs,
+            manage databases, and handle authentication systems. I also utilize
+            prompt engineering to integrate AI into my workflows—enhancing user
+            interaction and development efficiency. I enjoy turning ideas into
+            functional, user-centric digital experiences. From creating sleek
+            frontends with React to managing data and logic on the backend with
+            Node and Express, I strive for clean, optimized code and scalable
+            architecture. My workflow includes version control with Git,
+            deployment with Vercel, and continuous learning of new tools and
+            trends. I value teamwork, adaptability, and clear communication, and
+            I’m always eager to learn and grow.
             <br />
             <br />
-            Beyond coding, I value communication, adaptability, and a growth
-            mindset. I'm always on the lookout for exciting opportunities to
-            contribute to meaningful projects, solve real-world problems, and
-            grow as a developer.
-            <br />
-            <br />
-            Let's connect and build something awesome together!
+            I’m currently seeking opportunities to contribute to meaningful
+            projects, collaborate with forward-thinking teams, and sharpen my
+            skills further. Let’s connect and build something impactful
+            together!
           </p>
 
           {/* View Resume Button */}
