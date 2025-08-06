@@ -1,8 +1,17 @@
 import React from "react";
 import portfolioImg from "../../assets/images/portfolio.png"; // Replace with your actual image
 import backgroundImg from "../../assets/images/about_bg.jpg"; // Background image
+import { li } from "framer-motion/m";
 
 const About = () => {
+  const handleDownloadCv = () => {
+    const link = document.createElement("a");
+    link.href = "/AmmarShahab_Resume.pdf";
+    link.download = "AmmarShahab_Resume.pdf";
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
   return (
     <section
       className="w-full bg-cover bg-center bg-no-repeat font-poppins"
@@ -54,15 +63,18 @@ const About = () => {
           </p>
 
           {/* View Resume Button */}
-          <a
+          {/* <a
             href="/resume.pdf" // Replace with your actual resume link
             target="_blank"
             rel="noopener noreferrer"
+          > */}
+          <button
+            onClick={handleDownloadCv}
+            className="text-white bg-[#F7BE38] hover:bg-gray-800 transition-colors duration-300 focus:ring-4 focus:outline-none focus:ring-[#F7BE38]/20 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-[#F7BE38]/50 me-2 mb-2 "
           >
-            <button className="text-white bg-[#F7BE38] hover:bg-gray-800 transition-colors duration-300 focus:ring-4 focus:outline-none focus:ring-[#F7BE38]/20 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-[#F7BE38]/50 me-2 mb-2 ">
-              Download Resume
-            </button>
-          </a>
+            Download Resume
+          </button>
+          {/* </a> */}
         </div>
       </div>
     </section>
