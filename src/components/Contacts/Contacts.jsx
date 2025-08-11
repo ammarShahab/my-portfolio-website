@@ -55,7 +55,7 @@ const Contacts = () => {
               <div>
                 <p className="text-sm text-gray-600">Permanent Address</p>
                 <p className="text-lg font-medium text-gray-800">
-                  355 West Shewrapara, Mirpur, Dhaka-1216, Bangladesh
+                  Mirpur, Dhaka-1216, Bangladesh
                 </p>
               </div>
             </div>
