@@ -22,7 +22,7 @@ const About = () => {
     >
       <div className="max-w-6xl mx-auto px-6 py-16 flex flex-col md:flex-row items-center md:items-start gap-10 ">
         {/* Left: Portfolio Image */}
-        <div data-aos="fade-right" className="w-full md:w-1/2">
+        <div data-aos="fade-up-right" className="w-full md:w-1/2">
           <img
             src={portfolioImg}
             alt="Portfolio"
@@ -31,7 +31,7 @@ const About = () => {
         </div>
 
         {/* Right: About Content */}
-        <div data-aos="fade-left" className="w-full md:w-1/2 text-black">
+        <div data-aos="fade-up-right" className="w-full md:w-1/2 text-black">
           <h2 className="text-4xl md:text-4xl font-bold mb-4 uppercase text-gray-700">
             About Me
           </h2>

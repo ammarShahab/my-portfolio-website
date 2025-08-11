@@ -21,7 +21,7 @@ const Experience = () => {
             My Experience
           </h2>
           <p
-            data-aos="fade-left"
+            data-aos="fade-right"
             className="text-gray-300 text-lg md:text-xl mb-16"
           >
             Showcasing my journey and milestones in the world of development
