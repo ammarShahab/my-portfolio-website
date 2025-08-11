@@ -36,31 +36,29 @@ const About = () => {
             About Me
           </h2>
           <p className="text-base leading-relaxed text-gray-600 mb-6">
-            Hi! I’m a junior MERN Stack developer with a strong foundation in
-            full-stack web development. I recently completed a 6-month immersive
-            bootcamp where I mastered technologies like HTML, CSS, Tailwind CSS,
-            JavaScript, React, Node.js, Express.js, MongoDB, Firebase, and
-            Vercel.
+            I’m a passionate frontend developer with a strong foundation in
+            modern web technologies, gained through an intensive six-month
+            bootcamp. Along my journey, I mastered HTML, CSS, Tailwind,
+            JavaScript, and React for building responsive, engaging user
+            interfaces, while also expanding my skills into backend development
+            with Node.js, Express.js, MongoDB, Firebase, and JWT authentication.
+            I’ve applied these tools in real-world projects, each one deepening
+            my love for creating intuitive, functional, and visually appealing
+            applications.
+            <br />
+            <br />I enjoy transforming ideas into seamless digital
+            experiences—designing clean, adaptive UIs, ensuring performance
+            optimization, and integrating innovative solutions. I thrive in
+            collaborative environments where creativity meets problem-solving,
+            and I take pride in writing maintainable, scalable code that
+            enhances user satisfaction.
             <br />
             <br />
-            During the bootcamp, I built and deployed 3 full-stack projects that
-            reflect my ability to design responsive UIs, build efficient APIs,
-            manage databases, and handle authentication systems. I also utilize
-            prompt engineering to integrate AI into my workflows—enhancing user
-            interaction and development efficiency. I enjoy turning ideas into
-            functional, user-centric digital experiences. From creating sleek
-            frontends with React to managing data and logic on the backend with
-            Node and Express, I strive for clean, optimized code and scalable
-            architecture. My workflow includes version control with Git,
-            deployment with Vercel, and continuous learning of new tools and
-            trends. I value teamwork, adaptability, and clear communication, and
-            I’m always eager to learn and grow.
-            <br />
-            <br />
-            I’m currently seeking opportunities to contribute to meaningful
-            projects, collaborate with forward-thinking teams, and sharpen my
-            skills further. Let’s connect and build something impactful
-            together!
+            Beyond programming, I keep my curiosity alive by exploring creative
+            outlets, engaging in sports, and staying up-to-date with emerging
+            tech trends. Whether I’m refining a feature, sketching a new layout,
+            or learning a new skill, I approach every challenge with energy,
+            creativity, and a drive for growth.
           </p>
         </div>
       </div>
