@@ -20,13 +20,15 @@ const skills = [
 const Skills = () => {
   return (
     <section
-      data-aos="zoom-in"
-      data-aos-duration="2000"
       id="skills"
       className="w-full bg-cover bg-center bg-no-repeat font-poppins py-20"
       style={{ backgroundImage: `url(${skillBg})` }}
     >
-      <div className="max-w-6xl mx-auto px-6">
+      <div
+        data-aos="zoom-in"
+        data-aos-duration="2000"
+        className="max-w-6xl mx-auto px-6"
+      >
         {/* Heading */}
         <h3 className="relative text-4xl font-bold mb-12 uppercase text-center text-gray-700">
           Skills
