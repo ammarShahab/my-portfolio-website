@@ -24,7 +24,7 @@ const EducationalQualification = () => {
             data-aos="fade-right"
             className="text-gray-300 text-lg md:text-xl mb-16"
           >
-            My academic journey and milestones that shaped my professional path
+            My academic journey and milestones
           </p>
 
           {/* Education Cards */}
