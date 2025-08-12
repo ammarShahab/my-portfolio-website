@@ -1,9 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 import project_1 from "../../assets/images/project_1.jpg";
 import projectImg1 from "../../assets/images/projectImg_1_trus_life.png";
 import projectImg2 from "../../assets/images/projectImg_2_trip_nest.png";
 import projectImg3 from "../../assets/images/projectImg_3_dish_diary.png";
 import { motion } from "framer-motion";
+import Modal from "react-responsive-modal";
+import "react-responsive-modal/styles.css";
 
 const projectData = [
   {
@@ -26,11 +28,11 @@ const projectData = [
     githubRepo: "https://github.com/ammarShahab/tour-package",
     techUsed: "React, Tailwind CSS, Firebase, Node.js, MongoDB, Express.js",
     description:
-      "Trip Nest is a modern travel package booking platform built with the latest front-end technologies. It offers an interactive and smooth user experience for travelers to explore, view, and book travel packages with ease. The goal of Trip Nest is to provide a seamless travel booking experience where users can Browse curated travel packages, View package details with photos, itineraries, and pricing, Register or log in with Firebase authentication, Book travel packages, Manage personal bookings,Enjoy smooth navigation and animations",
+      "Trip Nest is a modern travel package booking platform built with the latest front-end technologies. It offers an interactive and smooth user experience for travelers to explore, view, and book travel packages with ease. The goal of Trip Nest is to provide a seamless travel booking experience where users can Browse curated travel packages, View package details with photos, itineraries, and pricing, Register or log in with Firebase authentication, Book travel packages, Manage personal bookings, Enjoy smooth navigation and animations.",
   },
   {
     id: 3,
-    title: "Dish Diary - Recipe Book App ",
+    title: "Dish Diary - Recipe Book App",
     image: projectImg3,
     links: "https://b11a10-client-side-ashahab007.web.app/",
     githubRepo: "https://github.com/ammarShahab/recipe-book-client-dash",
@@ -41,6 +43,19 @@ const projectData = [
 ];
 
 const Projects = () => {
+  const [open, setOpen] = useState(false);
+  const [selectedProject, setSelectedProject] = useState(null);
+
+  const onOpenModal = (project) => {
+    setSelectedProject(project);
+    setOpen(true);
+  };
+
+  const onCloseModal = () => {
+    setOpen(false);
+    setSelectedProject(null);
+  };
+
   return (
     <section
       id="projects"
@@ -52,7 +67,6 @@ const Projects = () => {
           {/* Title */}
           <h3 className="relative text-4xl font-bold mb-12 uppercase text-center text-gray-700">
             Projects
-            {/* Underline Layers */}
             <span className="absolute left-1/2 -translate-x-1/2 -bottom-4 h-[4px] w-40 bg-amber-300"></span>
             <span className="absolute left-1/2 -translate-x-1/2 -bottom-6 h-[4px] w-36 bg-amber-400"></span>
             <span className="absolute left-1/2 -translate-x-1/2 -bottom-8 h-[4px] w-32 bg-amber-500"></span>
@@ -68,19 +82,14 @@ const Projects = () => {
           {/* Project Cards */}
           <div className="grid grid-cols-1 h-full sm:grid-cols-2 md:grid-cols-3 gap-8">
             {projectData.map((project, index) => (
-              <a
-                // href={project.links}
-                // target="_blank"
-                rel="noopener noreferrer"
-                key={index}
-              >
+              <a key={index} rel="noopener noreferrer">
                 <motion.div
                   className="backdrop-blur-md min-h-full bg-white/10 border border-white/30 rounded-xl overflow-hidden shadow-lg group-hover:shadow-[rgba(255,255,255,0.2)_-20px_0px_30px_0px] transition-shadow duration-300"
                   initial={{ rotateX: 0, rotateZ: 0, translateY: 0 }}
                   whileHover={{
-                    rotateX: -5, // Top + bottom tilt (forward)
-                    rotateZ: -3, // Twist to the left
-                    translateY: -5, // Lift the left edge
+                    rotateX: -5,
+                    rotateZ: -3,
+                    translateY: -5,
                     transition: { duration: 0.1, ease: "easeInOut" },
                   }}
                   style={{ transformOrigin: "left center" }}
@@ -107,19 +116,36 @@ const Projects = () => {
                       >
                         View Repo
                       </a>
-                      <a
-                        href={project.githubRepo}
-                        target="_blank"
+                      <button
+                        onClick={() => onOpenModal(project)}
                         className="text-white hover:bg-[#F7BE38] bg-gray-800 transition-colors duration-300 font-medium rounded-sm text-sm p-2 mt-6"
                       >
                         View More
-                      </a>
+                      </button>
                     </div>
                   </div>
                 </motion.div>
               </a>
             ))}
           </div>
+
+          {/* Modal */}
+          <Modal open={open} onClose={onCloseModal} center>
+            {selectedProject && (
+              <div className="p-4 max-w-lg">
+                <h2 className="text-xl font-bold mb-4 text-gray-800">
+                  {selectedProject.title}
+                </h2>
+                <p className="text-gray-700 mb-4">
+                  {selectedProject.description}
+                </p>
+                <p className="text-sm text-gray-600">
+                  <span className="font-semibold">Tech Used: </span>
+                  {selectedProject.techUsed}
+                </p>
+              </div>
+            )}
+          </Modal>
         </div>
       </div>
     </section>
