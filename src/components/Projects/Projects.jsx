@@ -105,20 +105,20 @@ const Projects = () => {
                       <a
                         href={project.links}
                         target="_blank"
-                        className="text-white hover:bg-[#F7BE38] bg-gray-800 transition-colors duration-300 font-medium rounded-sm text-sm p-2 mt-6"
+                        className="text-white hover:bg-[#F7BE38] bg-gray-800 transition-colors duration-300 sm:font-light lg:font-medium sm:text-[9px] lg:text-sm rounded-sm p-2 mt-6"
                       >
                         View Site
                       </a>
                       <a
                         href={project.githubRepo}
                         target="_blank"
-                        className="text-white hover:bg-[#F7BE38] bg-gray-800 transition-colors duration-300 font-medium rounded-sm text-sm p-2 mt-6"
+                        className="text-white hover:bg-[#F7BE38] bg-gray-800 transition-colors duration-300 sm:font-light lg:font-medium sm:text-[9px] lg:text-sm rounded-sm  p-2 mt-6"
                       >
                         View Repo
                       </a>
                       <button
                         onClick={() => onOpenModal(project)}
-                        className="text-white hover:bg-[#F7BE38] bg-gray-800 transition-colors duration-300 font-medium rounded-sm text-sm p-2 mt-6"
+                        className="text-white hover:bg-[#F7BE38] bg-gray-800 transition-colors duration-300  sm:font-light lg:font-medium sm:text-[9px] lg:text-sm rounded-sm  p-2 mt-6"
                       >
                         View More
                       </button>

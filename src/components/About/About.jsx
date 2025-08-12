@@ -4,14 +4,6 @@ import backgroundImg from "../../assets/images/about_bg.jpg"; // Background imag
 import { li } from "framer-motion/m";
 
 const About = () => {
-  const handleDownloadCv = () => {
-    const link = document.createElement("a");
-    link.href = "/AmmarShahab_Resume.pdf";
-    link.download = "AmmarShahab_Resume.pdf";
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
-  };
   return (
     <section
       id="about"
@@ -35,7 +27,7 @@ const About = () => {
           <h2 className="text-4xl md:text-4xl font-bold mb-4 uppercase text-gray-700">
             About Me
           </h2>
-          <p className="text-base leading-relaxed text-gray-600 mb-6">
+          <p className="sm:text-[11px] lg:text-base leading-relaxed text-gray-600 mb-6">
             I’m a passionate frontend developer with a strong foundation in
             modern web technologies, gained through an intensive six-month
             bootcamp. Along my journey, I mastered HTML, CSS, Tailwind,
