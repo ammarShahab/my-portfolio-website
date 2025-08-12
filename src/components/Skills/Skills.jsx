@@ -44,21 +44,7 @@ const Skills = () => {
             <div
               key={index}
               /*  className="backdrop-blur-md bg-white/20 border border-white/30 rounded-xl shadow-lg p-6 flex flex-col items-center justify-center transition-transform duration-300 hover:scale-105 hover:shadow-2xl" */
-              className="
- 
- backdrop-blur-md bg-white/10 border border-white/30 
-  rounded-2xl 
-  shadow-lg 
-  p-6 
-  flex flex-col 
-  items-center 
-  justify-center 
-  transition-all 
-  duration-300 
-  hover:scale-105 
-  hover:shadow-[0_8px_32px_rgba(0,0,0,0.3)]
-  hover:bg-white/25
-"
+              className="backdrop-blur-md bg-white/10 border border-white/30 rounded-2xl shadow-lg p-6 flex flex-col items-center justify-center transition-all duration-300 hover:scale-105 hover:shadow-[0_8px_32px_rgba(0,0,0,0.3)] hover:bg-white/25"
             >
               <img
                 src={skill.icon}
