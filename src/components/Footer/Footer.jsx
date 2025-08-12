@@ -61,7 +61,7 @@ const Footer = () => {
                     className=" text-gray-300 dark:text-white"
                     rel="noopener noreferrer "
                   >
-                    355 West Shewrapara, Mirpur, Dhaka-1216, Bangladesh
+                    Mirpur, Dhaka-1216, Bangladesh
                   </a>
                 </li>
               </ul>
